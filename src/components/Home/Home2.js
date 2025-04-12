@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/larry.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -24,37 +24,43 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Python, C, C++ and Javascript. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Currently, I'm pursuing a <b className="purple">Master's in Professional Computer Science (Big Data) </b> at  &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Simon Fraser University </b> , one of Canada's top research-intensive institutions. I previously completed my Bachelor of Science in {" "}
                 <b className="purple">
-                  Blockchain.
-                </b>
+                Computing Science
+                </b> at SFU as well, where I built a solid foundation in systems programming, algorithms, and large-scale data systems.
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              My interests lie in developing modern Web Technologies and  <b className="purple">ystem-Level Applications—especially in the realms of cloud infrastructure, embedded systems (application layer), and data-driven solutions. </b>
+              I enjoy working close to the system, whether it's designing communication protocols, building real-time monitoring services, or optimizing embedded software in C.
+              <br />
+              <br />
+              I’ve built full-stack platforms like MarketBay using React.js, Express, and AWS, and I've also worked on <b className="purple">real-time</b> V2X communication systems during my internship at iSmartWays, where I developed C-based data packet structures and a UPER encoder/decoder to enhance message exchange between MEC and RSU devices.
+              <br />
+              <br />
+              Whenever possible, I combine my academic learning with hands-on development—leveraging tools like Docker, MongoDB, and frameworks like Next.js, while also diving deep into 
+              <b className="purple"> low-level programming</b> to build robust, scalable, and impactful systems.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img 
+                src={myImg} 
+                className="img-fluid" 
+                alt="avatar" 
+                style={{
+                  borderRadius: "50%",
+                  width: "400px",
+                  height: "400px",
+                  objectFit: "cover"
+                }}
+              />
             </Tilt>
           </Col>
         </Row>
@@ -67,7 +73,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Larry0913"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +83,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://x.com/LingjieLi5"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +93,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/lingjie-li-760206281/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +103,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/larrrrrry0913"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

@@ -7,13 +7,15 @@ function Type() {
       options={{
         strings: [
           "Software Developer",
-          "Freelancer",
-          "MERN Stack Developer",
-          "Open Source Contributor",
+          "Full-Stack Developer",
+          "Data Engineer",
+          "Embedded Systems Developer"
         ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
+        wrapperClassName: "Typewriter__wrapper",
+        cursorClassName: "Typewriter__cursor"
       }}
     />
   );

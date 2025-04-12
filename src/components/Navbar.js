@@ -38,8 +38,17 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <Navbar.Brand href="/" className="d-flex align-items-center">
+          <span style={{
+            color: "#cd5ff8",         // 使用网站主题的紫色
+            fontSize: "1.3em",        // 适当的字体大小
+            fontWeight: "bold",       // 加粗
+            fontFamily: "monospace",  // 使用等宽字体，看起来更技术感
+            padding: "0.2em 0",       // 适当的内边距
+            letterSpacing: "0.05em"   // 字母间距，提高可读性
+          }}>
+            &lt;Larry Li/&gt;        {/* 使用类似代码标签的样式 */}
+          </span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

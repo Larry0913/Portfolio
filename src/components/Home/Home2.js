@@ -28,7 +28,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Currently, I'm pursuing a <b className="purple">Master's in Professional Computer Science (Big Data) </b> at  &nbsp;
+              Currently, I'm pursuing my <b className="purple">Master of Professional Computer Science degree in Big Data </b> at  &nbsp;
               <i>
                 <b className="purple">Simon Fraser University </b> , one of Canada's top research-intensive institutions. I previously completed my Bachelor of Science in {" "}
                 <b className="purple">
@@ -41,7 +41,7 @@ function Home2() {
               I enjoy working close to the system, whether it's designing communication protocols, building real-time monitoring services, or optimizing embedded software in C.
               <br />
               <br />
-              I’ve built full-stack platforms like MarketBay using React.js, Express, and AWS, and I've also worked on <b className="purple">real-time</b> V2X communication systems during my internship at iSmartWays, where I developed C-based data packet structures and a UPER encoder/decoder to enhance message exchange between MEC and RSU devices.
+              I've built full-stack platforms like MarketBay using React.js, Express, and AWS, and I've also worked on <b className="purple">real-time</b> V2X communication systems during my internship at iSmartWays, where I developed C-based data packet structures and a UPER encoder/decoder to enhance message exchange between MEC and RSU devices.
               <br />
               <br />
               Whenever possible, I combine my academic learning with hands-on development—leveraging tools like Docker, MongoDB, and frameworks like Next.js, while also diving deep into 

@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -111,7 +112,47 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:lilingjie0913@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
             </ul>
+            <div style={{ 
+              marginTop: "30px", 
+              textAlign: "center",
+              padding: "20px",
+              background: "rgba(255, 255, 255, 0.05)",
+              borderRadius: "10px",
+              backdropFilter: "blur(10px)"
+            }}>
+              <h3 style={{ 
+                fontSize: "1.5em", 
+                marginBottom: "15px"
+              }}>
+                Contact Me At
+              </h3>
+              <a
+                href="mailto:lilingjie0913@gmail.com"
+                style={{
+                  color: "#c084f5",
+                  fontSize: "1.3em",
+                  textDecoration: "none",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "10px"
+                }}
+              >
+                <AiOutlineMail style={{ fontSize: "1.5em" }} />
+                lilingjie0913@gmail.com
+              </a>
+            </div>
           </Col>
         </Row>
       </Container>

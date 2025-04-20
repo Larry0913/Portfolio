@@ -38,7 +38,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My interests lie in developing modern Web Technologies and  <b className="purple">ystem-Level Applications—especially in the realms of cloud infrastructure, embedded systems (application layer), and data-driven solutions. </b>
+              My interests lie in developing modern Web Technologies and  <b className="purple">system-Level Applications—especially in the realms of cloud infrastructure, embedded systems (application layer), and data-driven solutions. </b>
               I enjoy working close to the system, whether it's designing communication protocols, building real-time monitoring services, or optimizing embedded software in C.
               <br />
               <br />

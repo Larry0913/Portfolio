@@ -42,7 +42,7 @@ function Home2() {
               I enjoy working close to the system, whether it's designing communication protocols, building real-time monitoring services, or optimizing embedded software in C.
               <br />
               <br />
-              I've built full-stack platforms like MarketBay using React.js, Express, and AWS, and I've also worked on <b className="purple">real-time</b> V2X communication systems during my internship at iSmartWays, where I developed C-based data packet structures and a UPER encoder/decoder to enhance message exchange between MEC and RSU devices.
+              I've built full-stack platforms like MarketBay using React.js, Express, and AWS, and I've also worked on <b className="purple">real-time</b> V2X communication systems during my internship at iSmartWays, where I developed C-based data packet structures and a ASN1c UPER encoder/decoder tool to improve the message exchange between MEC and RSU devices.
               <br />
               <br />
               Whenever possible, I combine my academic learning with hands-on development—leveraging tools like Docker, MongoDB, and frameworks like Next.js, while also diving deep into 

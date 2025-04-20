@@ -9,6 +9,7 @@ import ecommerce from "../../Assets/Projects/ecommerce.png";
 import gatekeeper from "../../Assets/Projects/gatekeeper.jpg";
 import music from "../../Assets/Projects/music.jpeg";
 import hrms from "../../Assets/Projects/EIMS.png";
+import uper from "../../Assets/Projects/asn1decodetool.png";
 
 function Projects() {
   return (
@@ -81,10 +82,10 @@ function Projects() {
               isBlog={false}
               title="MarketBay"
               subtitle="(2024 Sept - 2024 Dec)"
-              description="• Built a full-stack e-commerce platform with dynamic product listings and secure user authentication.
-• Implemented real-time chat functionality between buyers and sellers using Socket.io.
-• Developed custom offer system for price negotiations and user interactions.
-• Deployed using AWS services (S3 for frontend, EC2 for backend) with CI/CD workflows."
+              description="• Built a full-stack e-commerce platform with React.js frontend and Express.js/Node.js backend during HackHub bootcamp.
+• Implemented secure user authentication and dynamic product listings with intuitive buyer-seller interaction flows.
+• Designed MongoDB data models for efficient CRUD operations across users, products, and transactions.
+• Integrated real-time chat using Socket.io and deployed on AWS (S3 for frontend, EC2 for backend) with CI/CD."
               techStack={[
                 "Full-Stack",
                 "JavaScript",
@@ -180,7 +181,7 @@ function Projects() {
             />
           </Col>
 
-                    <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={hrms}
               isBlog={false}
@@ -192,6 +193,7 @@ function Projects() {
 • Implemented secure file uploads and employee profile features with Docker deployment support."
               techStack={[
                 "Java",
+                "Web Development",
                 "Spring Boot",
                 "Spring Security",
                 "PostgreSQL",
@@ -200,10 +202,39 @@ function Projects() {
                 "REST API",
                 "JPA",
                 "MVC",
-                "RBAC"
+                "HTML",
+                "CSS",
               ]}
-              ghLink="https://github.com/Larry0913/hrms"
+              ghLink="https://github.com/Larry0913/Enterprise_Information_Management_System_CMPT276"
               demoLink="https://cmpt276-springboot-render.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={uper}
+              isBlog={false}
+              title="ASN.1 Code Stream Parser"
+              subtitle="(2023 May - 2023 Aug)"
+              description="• Developed a C-based parser to decode ASN.1 encoded data streams into human-readable JSON format.
+• Implemented parsing logic for Day1 message sets with support for complex ASN.1 data types.
+• Built efficient memory management system for handling large encoded data streams.
+• Created structured JSON output format for easy integration with other analysis tools."
+              techStack={[
+                "C",
+                "V2X",
+                "ASN.1",
+                "JSON",
+                "Protocol Analysis",
+                "Binary Processing",
+                "Embedded Systems",
+                "Unaligned Packed Encoding Rules",
+                "Abstract Syntax Notation One",
+                "Smart Transport Protocol",
+                "Vehicle-to-Vehicle Communication",
+                "Vehicle-to-Infrastructure Communication",
+              ]}
+              ghLink="https://github.com/Larry0913/asn1c-msg-decode-tool"
             />
           </Col>
           

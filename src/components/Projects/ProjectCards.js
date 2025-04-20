@@ -27,7 +27,7 @@ function ProjectCards(props) {
             {props.subtitle}
           </div>
         )}
-        <Card.Text style={{ textAlign: "justify", whiteSpace: "pre-line" }}>
+        <Card.Text style={{ textAlign: "left", whiteSpace: "pre-line" }}>
           {formattedDescription}
         </Card.Text>
         {props.techStack && (
